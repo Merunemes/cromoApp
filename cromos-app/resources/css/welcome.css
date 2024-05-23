@@ -1,0 +1,62 @@
+/* Estilos para la página de bienvenida */
+
+/* Contenedor principal */
+body {
+    font-family: 'figtree', sans-serif;
+    background-color: #F3F4F6; /* Color de fondo */
+    color: #374151; /* Color del texto principal */
+}
+
+/* Encabezado y barra de navegación */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95); /* Fondo semi-transparente */
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #4B5563; /* Color del texto de navegación */
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #1E3A8A; /* Color del texto de navegación al pasar el mouse */
+}
+
+/* Contenido principal */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 4rem;
+    padding-top: 8rem; /* Ajusta según el espacio necesario */
+    text-align: center;
+}
+
+.main-content img {
+    width: 10rem; /* Ajusta el tamaño de tu logo */
+    margin-bottom: 2rem;
+}
+
+.main-content h1 {
+    font-size: 3rem; /* Tamaño del título principal */
+    font-weight: bold;
+    color: #1E3A8A; /* Color del título principal */
+    margin-bottom: 1rem;
+}
+
+.main-content p {
+    font-size: 1.5rem; /* Tamaño del texto secundario */
+    color: #6B7280; /* Color del texto secundario */
+    margin-bottom: 2rem;
+}
